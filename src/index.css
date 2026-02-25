@@ -469,7 +469,7 @@ html {
   .name {
     text-align: center;
     padding: 0 0 0 0;
-    font-size: 1.7rem;
+    font-size: 3.6vh;
     width: 20vw;
   }
 
@@ -518,7 +518,7 @@ html {
   .resume-button {
     all: unset;
     display: block;
-    font-size: 1.2rem;
+    font-size: 2.7vh;
     padding-top: 0.8vh;
     padding-bottom: 0.8vh;
     width: 10vw;
@@ -559,7 +559,7 @@ html {
     overflow-x: scroll;
     scrollbar-width: none;
     color: white;
-    font-size: clamp(0.5rem, 2vw, 0.8rem);
+    font-size: 1.9vh;
     font-weight: 700;
     min-width: 10vw;
   }
@@ -616,7 +616,7 @@ html {
     padding-right: 2vw;
     color: white;
     text-align: left;
-    font-size: clamp(0.6rem, 1.3vw, 0.935rem);
+    font-size: 2.08vh;
     margin: 0;
     line-height: 1.5;
   }
@@ -668,7 +668,7 @@ html {
     position: absolute;
     right: 0;
     border-radius: 0 20px 0 20px;
-    font-size: clamp(0.7rem, 1.3vw, 1rem);
+    font-size: 2.3vh;
     background-color: var(--theme-grey);
   }
 
@@ -724,6 +724,7 @@ html {
     text-align: left;
     border-radius: 20px;
     scroll-snap-align: start;
+    font-size: 2.2vh;
     position: relative;
   }
 
@@ -880,6 +881,7 @@ html {
     padding-top: 1vh;
     margin-bottom: 3vh;
     padding-right: 1.2vw;
+    font-size: 2.2vh;
   }
 
   .tech-stack-list {
@@ -892,7 +894,7 @@ html {
     padding-right: 1.2vw;
     gap: 0.6vw;
     margin-bottom: 3vh;
-    font-size: 0.9rem;
+    font-size: 2.2vh;
     scrollbar-width: none;
   }
 
