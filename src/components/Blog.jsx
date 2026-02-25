@@ -4,10 +4,14 @@ import ExpandedArticle from './ExpandedArticle';
 
 export default function Blog({ client }) {
     const [blogs, setBlogs] = useState([]);
-    const [isVisible, setIsVisible] = useState([false, false, false]);
+    const [isVisible, setIsVisible] = useState([]);
+
     useEffect(() => {
         client.getEntries({ content_type: 'blog' })
-            .then((response) => setBlogs(response.items))
+            .then((response) => {
+                setBlogs(response.items);
+                setIsVisible(new Array(response.items.length).fill(false));
+            })
             .catch(console.error);
     }, [client]);
     const toggleFlag = (index) => {
